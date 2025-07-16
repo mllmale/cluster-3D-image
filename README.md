@@ -18,6 +18,18 @@ Este repositório contém scripts para realizar **reconstrução 3D** usando o [
 - Dependências do COLMAP instaladas:
   - `cmake`, `boost`, `eigen`, `Qt5`, `OpenCV`
   - **CUDA (opcional)** para reconstrução densa
+ 
+## 🛠️ Passo 1: Instalação do COLMAP
+
+### 🔹 Instalar via código-fonte (Linux)
+
+```bash
+git clone https://github.com/colmap/colmap.git
+cd colmap
+mkdir build
+cd build
+cmake ..
+make -j$(nproc)
 
 ## 🚀 Passo 2: Executar Reconstrução Local
 Use o script run_colmap_local.sh para rodar o pipeline completo de reconstrução esparsa:
