@@ -30,7 +30,7 @@ mkdir build
 cd build
 cmake ..
 make -j$(nproc)
-
+```
 ## 🚀 Passo 2: Executar Reconstrução Local
 Use o script run_colmap_local.sh para rodar o pipeline completo de reconstrução esparsa:
 
